@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Basically, Everything\\school works\\COLLEGE (REAL)\\Programming\\CPE106\\test\\CPE106-FOPI01-DE GUZMAN-MOD3-QUIZ\\CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ\\CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ.csproj": {}
+  },
+  "projects": {
+    "E:\\Basically, Everything\\school works\\COLLEGE (REAL)\\Programming\\CPE106\\test\\CPE106-FOPI01-DE GUZMAN-MOD3-QUIZ\\CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ\\CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Basically, Everything\\school works\\COLLEGE (REAL)\\Programming\\CPE106\\test\\CPE106-FOPI01-DE GUZMAN-MOD3-QUIZ\\CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ\\CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ.csproj",
+        "projectName": "CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ",
+        "projectPath": "E:\\Basically, Everything\\school works\\COLLEGE (REAL)\\Programming\\CPE106\\test\\CPE106-FOPI01-DE GUZMAN-MOD3-QUIZ\\CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ\\CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ.csproj",
+        "packagesPath": "C:\\Users\\Adminstrator\\.nuget\\packages\\",
+        "outputPath": "E:\\Basically, Everything\\school works\\COLLEGE (REAL)\\Programming\\CPE106\\test\\CPE106-FOPI01-DE GUZMAN-MOD3-QUIZ\\CPE106-FOPI01-DE GUZMAN-MOD1-QUIZ\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Adminstrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

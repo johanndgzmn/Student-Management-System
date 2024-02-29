@@ -1,0 +1,194 @@
+﻿<UserControl x:Class="_CPE106_FOPI01_DE_GUZMAN_MOD1_QUIZ.Views.SpecificRecordView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_CPE106_FOPI01_DE_GUZMAN_MOD1_QUIZ.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1005">
+    <Grid Background="#2e3035">
+        <Label x:Name="Person"
+            Content="View Specific Record"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="103,31,233,569"
+            FontSize="45"
+            Height="120"/>
+
+        <Image Source="../Images/list.png" 
+               Margin="-58,19,843,613" />
+
+        <Label x:Name="LastName"
+            Content="Last Name"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="168,277,590,396"
+            FontSize="30"/>
+
+        <TextBox x:Name="TextLastName" 
+            HorizontalAlignment="Left"
+            Margin="561,287,0,0" 
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top" 
+            Width="278"
+            Height="35"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="20"
+            ToolTip="Enter last name here."
+            IsReadOnly="True"
+            IsHitTestVisible="False"/>
+
+        <Label x:Name="GivenName"
+            Content="Given Name "
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="168,350,590,323"
+            FontSize="30"/>
+
+        <TextBox x:Name="TextGivenName" 
+            HorizontalAlignment="Left"
+            Margin="561,364,0,0" 
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top" 
+            Width="278"
+            Height="36"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="20"
+            ToolTip="Enter last name here."
+            IsReadOnly="True"
+            IsHitTestVisible="False"/>
+
+        <Label x:Name="MiddleName"
+            Content="Middle Name "
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="168,428,576,245"
+            FontSize="30"/>
+
+        <TextBox x:Name="TextMiddleName" 
+            HorizontalAlignment="Left"
+            Margin="561,442,0,0" 
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top" 
+            Width="278"
+            Height="35"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="20"
+            ToolTip="Enter last name here."
+            IsReadOnly="True"
+            IsHitTestVisible="False"/>
+
+        <TextBox x:Name="TextInputID" 
+            HorizontalAlignment="Left"
+            Margin="443,142,0,0" 
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top" 
+            Width="236"
+            Height="30"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="20"
+            ToolTip="Enter last name here."/>
+
+        <Button Content="View with ID"
+                Width="200"
+                Foreground="Black"
+                FontSize="14"
+                BorderThickness="0"
+                FontFamily="/Fonts/#Montserrat"
+                RenderTransformOrigin="0.5,0.5" Margin="730,142,75,548" Click="ID_Click"/>
+
+        <Label x:Name="StudentNumber"
+            Content="Student Number"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="109,196,619,484"
+            FontSize="30"
+            Height="40"/>
+
+        <TextBox x:Name="TextStudentNumber" 
+            HorizontalAlignment="Left"
+            Margin="443,206,0,0"
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top" 
+            Width="236"
+            Height="30"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="20"
+            ToolTip="Enter student number here."/>
+
+        <Button Content="View with Student Number"
+            Width="200"
+            Foreground="Black"
+            FontSize="13"
+            BorderThickness="0"
+            FontFamily="/Fonts/#Montserrat"
+            RenderTransformOrigin="0.5,0.5" 
+            Margin="730,206,75,484" 
+            Click="StudentNumber_Click"/>
+
+        <Label x:Name="Program"
+            Content="Program"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="168,497,531,171"
+            FontSize="30"/>
+
+        <TextBox x:Name="TextStudentProgram"
+            Margin="561,511,166,0" 
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top"
+            Height="36"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="20" 
+            ToolTip="Enter last name here."
+            IsReadOnly="True"
+            IsHitTestVisible="False"/>
+
+        <Label x:Name="Year"
+            Content="Year"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="168,573,674,100"
+            FontSize="30"/>
+
+        <TextBox x:Name="TextStudentYear" 
+            HorizontalAlignment="Left"
+            Margin="561,587,0,0" 
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top" 
+            Width="278"
+            Height="35"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="20" 
+            ToolTip="Enter last name here."
+            IsReadOnly="True"
+            IsHitTestVisible="False"/>
+
+        <Label x:Name="ID"
+            Content="ID"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="111,132,730,548"
+            FontSize="30"/>
+
+        <Label x:Name="PersonLabel"
+            Content="Person ID"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="168,639,674,34"
+            FontSize="30"/>
+
+        <TextBox x:Name="TextStudentPerson" 
+            HorizontalAlignment="Left"
+            Margin="561,653,0,0" 
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top" 
+            Width="278"
+            Height="35"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="20" 
+            ToolTip="Enter last name here."
+            IsReadOnly="True"
+            IsHitTestVisible="False"/>
+    </Grid>
+</UserControl>

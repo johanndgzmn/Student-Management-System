@@ -1,0 +1,127 @@
+﻿<UserControl x:Class="_CPE106_FOPI01_DE_GUZMAN_MOD1_QUIZ.Views.PersonView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_CPE106_FOPI01_DE_GUZMAN_MOD1_QUIZ.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1005">
+
+    <Grid Background="#2e3035">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="720"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Source="../Images/person.png" 
+               Margin="-34,6,1218,594"/>
+        <Label x:Name="Person"
+            Content="Person"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="152,25,337,575"
+            FontSize="60"
+            Height="120"/>
+
+        <Button Content="Add Person"
+                Foreground="Black"
+                FontSize="14"
+                BorderThickness="0"
+                FontFamily="/Fonts/#Montserrat"
+                RenderTransformOrigin="0.5,0.5" Margin="152,461,1018,179" Click="AddPerson_Click"/>
+
+        <Label x:Name="LastName"
+               Content="Last Name"
+               FontFamily="/Fonts/#Montserrat"
+               Foreground="White"
+               Margin="152,203,1005,464"
+               FontSize="30"/>
+
+        <TextBox x:Name="TextLastName" 
+                 HorizontalAlignment="Left"
+                 Margin="596,214,0,0" 
+                 TextWrapping="NoWrap" 
+                 VerticalAlignment="Top" 
+                 Width="266"
+                 Height="40"
+                 FontFamily="/Fonts/#Montserrat"
+                 FontSize="25"
+                 ToolTip="Enter last name here."/>
+
+        <Label x:Name="GivenName"
+               Content="Given Name "
+               FontFamily="/Fonts/#Montserrat"
+               Foreground="White"
+               Margin="152,286,1005,381"
+               FontSize="30"/>
+
+        <TextBox x:Name="TextGivenName" 
+                 HorizontalAlignment="Left"
+                 Margin="596,295,0,0" 
+                 TextWrapping="NoWrap" 
+                 VerticalAlignment="Top" 
+                 Width="266"
+                 Height="40"
+                 FontFamily="/Fonts/#Montserrat"
+                 FontSize="25"
+                 ToolTip="Enter given name here."/>
+
+        <Label x:Name="MiddleName"
+               Content="Middle Name "
+               FontFamily="/Fonts/#Montserrat"
+               Foreground="White"
+               Margin="152,373,989,294"
+               FontSize="30"/>
+
+        <TextBox x:Name="TextMiddleName" 
+                 HorizontalAlignment="Left"
+                 Margin="596,379,0,0" 
+                 TextWrapping="NoWrap" 
+                 VerticalAlignment="Top" 
+                 Width="266"
+                 Height="40"
+                 FontFamily="/Fonts/#Montserrat"
+                 FontSize="25"
+                 ToolTip="Enter middle name here."/>
+
+        <Button Content="Edit Person"
+                Foreground="Black"
+                FontSize="14"
+                BorderThickness="0"
+                FontFamily="/Fonts/#Montserrat"
+                RenderTransformOrigin="0.5,0.5" 
+                Margin="596,461,574,179" Click="EditPerson_Click"/>
+
+        <Button x:Name="DeletePerson"
+                Content="Delete Person"
+                Foreground="Black"
+                FontSize="14"
+                BorderThickness="0"
+                FontFamily="/Fonts/#Montserrat"
+                RenderTransformOrigin="0.5,0.5" 
+                Margin="373,582,797,58"
+                Click="DeletePerson_Click"/>
+        <Label x:Name="IDLabel"
+            Content="ID"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="152,129,1005,538"
+            FontSize="30"/>
+        <TextBox x:Name="TextID" 
+            HorizontalAlignment="Left"
+            Margin="596,136,0,0" 
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top" 
+            Width="266"
+            Height="40"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="25"
+            ToolTip="Enter an ID."/>
+
+    </Grid>
+</UserControl>

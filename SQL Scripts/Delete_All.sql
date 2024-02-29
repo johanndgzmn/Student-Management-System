@@ -1,0 +1,11 @@
+USE student_maintenance
+GO
+
+CREATE PROC Delete_All
+AS
+BEGIN
+	DELETE FROM Student
+	DELETE FROM Person
+	DBCC CHECKIDENT ('Student', RESEED, 0)
+	DBCC CHECKIDENT ('Person', RESEED, 0)
+END

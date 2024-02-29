@@ -1,0 +1,135 @@
+﻿<UserControl x:Class="_CPE106_FOPI01_DE_GUZMAN_MOD1_QUIZ.Views.StudentView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_CPE106_FOPI01_DE_GUZMAN_MOD1_QUIZ.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1005">
+    <Grid Background="#2e3035">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="758.268"/>
+            <ColumnDefinition Width="246.732"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height ="720"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Image Source="../Images/student.png" 
+               Margin="-50,6,550,594"/>
+        <Label x:Name="Student"
+            Content="Student"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="152,25,337,575"
+            FontSize="60"
+            Height="120"/>
+        
+        <Label x:Name="StudentID"
+            Content="ID"
+            FontFamily="/Fonts/#Montserrat"
+            Foreground="White"
+            Margin="152,136,527,544"
+            FontSize="30"/>
+
+        <TextBox x:Name="TextStudentID" 
+            HorizontalAlignment="Left"
+            Margin="596,136,0,0" 
+            TextWrapping="NoWrap" 
+            VerticalAlignment="Top" 
+            Width="266"
+            Height="40"
+            FontFamily="/Fonts/#Montserrat"
+            FontSize="25"
+            ToolTip="Enter ID here." Grid.ColumnSpan="2"/>
+
+        <Button Content="Add Student" 
+                Height="80"
+                Width="227.333"
+                Foreground="Black"
+                FontSize="14"
+                BorderThickness="0"
+                FontFamily="/Fonts/#Montserrat"
+                RenderTransformOrigin="0.5,0.5" Margin="152,461,379,179"
+                Click="AddStudent_Click"/>
+
+        <Label x:Name="StudentNumber"
+               Content="Student Number"
+               FontFamily="/Fonts/#Montserrat"
+               Foreground="White"
+               Margin="152,210,300,470"
+               FontSize="30"/>
+
+        <TextBox x:Name="TextStudentNumber" 
+                 HorizontalAlignment="Left"
+                 Margin="596,214,0,0"  
+                 TextWrapping="NoWrap" 
+                 VerticalAlignment="Top" 
+                 Width="266"
+                 Height="40"
+                 FontFamily="/Fonts/#Montserrat"
+                 FontSize="25"
+                 ToolTip="Enter student number here." Grid.ColumnSpan="2"/>
+
+        <Label x:Name="Program"
+               Content="Program"
+               FontFamily="/Fonts/#Montserrat"
+               Foreground="White"
+               Margin="152,286,359,381"
+               FontSize="30"/>
+
+        <TextBox x:Name="TextStudentProgram"
+                 HorizontalAlignment="Left"
+                 Margin="596,295,0,0"
+                 TextWrapping="NoWrap" 
+                 VerticalAlignment="Top" 
+                 Width="266"
+                 Height="40"
+                 FontFamily="/Fonts/#Montserrat"
+                 FontSize="25"
+                 ToolTip="Enter program ID here." Grid.ColumnSpan="2"/>
+
+        <Label x:Name="Year"
+               Content="Year"
+               FontFamily="/Fonts/#Montserrat"
+               Foreground="White"
+               Margin="152,373,471,294"
+               FontSize="30"/>
+
+        <TextBox x:Name="TextStudentYear" 
+                 HorizontalAlignment="Left"
+                 Margin="596,379,0,0" 
+                 TextWrapping="NoWrap" 
+                 VerticalAlignment="Top" 
+                 Width="266"
+                 Height="40"
+                 FontFamily="/Fonts/#Montserrat"
+                 FontSize="25" 
+                 ToolTip="Enter year here." Grid.ColumnSpan="2"/>
+
+        <Button Content="Edit Student" 
+                Height="80"
+                Width="227.333"
+                Foreground="Black"
+                FontSize="14"
+                BorderThickness="0"
+                FontFamily="/Fonts/#Montserrat"
+                RenderTransformOrigin="0.5,0.5" 
+                Margin="596,461,182,179"
+                Click="EditStudent_Click" Grid.ColumnSpan="2"/>
+
+        <Button Content="Delete Student" 
+                Height="80"
+                Width="227.333"
+                Foreground="Black"
+                FontSize="14"
+                BorderThickness="0"
+                FontFamily="/Fonts/#Montserrat"
+                RenderTransformOrigin="0.5,0.5" 
+                Margin="373,582,158,58"
+                Click="DeleteStudent_Click"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="_CPE106_FOPI01_DE_GUZMAN_MOD1_QUIZ.Views.AllRecordsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:_CPE106_FOPI01_DE_GUZMAN_MOD1_QUIZ.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="720" d:DesignWidth="1005">
+    <Grid Background="#2e3035">
+        <Grid>
+            <DataGrid x:Name="dataGrid"
+                      FontFamily="/Fonts/#Montserrat"
+                      Background="#2e3035"
+                      Foreground="White"
+                      ColumnWidth="143.57"
+                      RowBackground="#2e3035"
+                      FontSize="16"
+                      GridLinesVisibility="Horizontal"
+                      HorizontalGridLinesBrush="Transparent">
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                        <Setter Property="Background" 
+                                Value="#212226"/>
+                        <Setter Property="Padding" 
+                                Value="10"/>
+                        <Setter Property="Margin" 
+                                Value="0,20,0,0"/>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+            </DataGrid>
+        </Grid>
+    </Grid>
+</UserControl>
